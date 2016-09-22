@@ -1,0 +1,8 @@
+{
+  "min_instances": 8,
+  "max_pool_size": 8,
+  "concurrency_model": "thread",
+  "thread_count": 100,
+  "environment": "production",
+  "max_request_queue_size": 100
+}
