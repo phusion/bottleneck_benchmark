@@ -1,0 +1,89 @@
+Running 30s test @ http://95.85.2.125:3000/benchmark/cpu_and_io
+  1 threads and 1 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   209.47ms   19.00ms 235.74ms   84.62%
+    Req/Sec     4.83      1.30    10.00     81.82%
+  143 requests in 30.06s, 75.82KB read
+Requests/sec:      4.76
+Transfer/sec:      2.52KB
+made 145 requests and got 143 responses and 0 errors
+Running 30s test @ http://95.85.2.125:3000/benchmark/cpu_and_io
+  2 threads and 2 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   417.61ms   31.42ms 471.60ms   87.41%
+    Req/Sec     1.92      0.42     3.00     81.82%
+  143 requests in 30.06s, 75.83KB read
+Requests/sec:      4.76
+Transfer/sec:      2.52KB
+made 146 requests and got 143 responses and 0 errors
+Running 30s test @ http://95.85.2.125:3000/benchmark/cpu_and_io
+  4 threads and 4 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   841.85ms   51.87ms   1.10s    92.20%
+    Req/Sec     1.00      0.12     2.00     98.58%
+  141 requests in 30.06s, 74.77KB read
+Requests/sec:      4.69
+Transfer/sec:      2.49KB
+made 146 requests and got 141 responses and 0 errors
+Running 30s test @ http://95.85.2.125:3000/benchmark/cpu_and_io
+  8 threads and 8 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.68s   136.51ms   1.88s    95.62%
+    Req/Sec     0.01      0.09     1.00     99.28%
+  138 requests in 30.06s, 73.18KB read
+  Socket errors: connect 0, read 0, write 0, timeout 1
+Requests/sec:      4.59
+Transfer/sec:      2.43KB
+made 147 requests and got 138 responses and 0 errors
+Running 30s test @ http://95.85.2.125:3000/benchmark/cpu_and_io
+  16 threads and 16 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.75s   143.47ms   1.85s   100.00%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  140 requests in 30.07s, 74.24KB read
+  Socket errors: connect 0, read 0, write 0, timeout 138
+Requests/sec:      4.66
+Transfer/sec:      2.47KB
+made 157 requests and got 140 responses and 0 errors
+Running 30s test @ http://95.85.2.125:3000/benchmark/cpu_and_io
+  32 threads and 32 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     0.00us    0.00us   0.00us    -nan%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  129 requests in 30.07s, 68.41KB read
+  Socket errors: connect 0, read 0, write 0, timeout 129
+Requests/sec:      4.29
+Transfer/sec:      2.27KB
+made 162 requests and got 129 responses and 0 errors
+Running 30s test @ http://95.85.2.125:3000/benchmark/cpu_and_io
+  64 threads and 64 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     0.00us    0.00us   0.00us    -nan%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  119 requests in 30.08s, 63.10KB read
+  Socket errors: connect 0, read 0, write 0, timeout 119
+Requests/sec:      3.96
+Transfer/sec:      2.10KB
+made 184 requests and got 119 responses and 0 errors
+Running 30s test @ http://95.85.2.125:3000/benchmark/cpu_and_io
+  128 threads and 128 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     7.78ms    6.94ms 175.06ms   90.82%
+    Req/Sec   129.44     67.80   420.00     67.17%
+  160031 requests in 30.10s, 73.71MB read
+  Socket errors: connect 0, read 0, write 0, timeout 87
+  Non-2xx or 3xx responses: 159944
+Requests/sec:   5317.18
+Transfer/sec:      2.45MB
+made 160155 requests and got 87 responses and 159944 errors
+Running 30s test @ http://95.85.2.125:3000/benchmark/cpu_and_io
+  256 threads and 256 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    37.52ms   89.81ms   1.90s    96.79%
+    Req/Sec    40.25     17.99   141.00     59.68%
+  217158 requests in 30.10s, 100.02MB read
+  Socket errors: connect 0, read 0, write 0, timeout 44
+  Non-2xx or 3xx responses: 217114
+Requests/sec:   7214.19
+Transfer/sec:      3.32MB
+made 217391 requests and got 44 responses and 217114 errors

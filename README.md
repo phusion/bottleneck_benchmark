@@ -1,24 +1,6 @@
-# README
+Resource bottlenecks
+====================
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This Rails application has a `benchmark_controller` with three actions, `cpu`, `io` and `cpu_and_io`. They can be hit with an http `POST` to the corresponding `benchmarks/<action>` route.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+In the `benchmark` directory there are scripts for executing benchmarks.
